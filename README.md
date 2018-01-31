@@ -1,2 +1,2 @@
 # render-server
-Takes input and return autodesk server script
+Takes input user input and return autodesk server script for rendering
