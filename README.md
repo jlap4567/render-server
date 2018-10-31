@@ -1,2 +1,2 @@
-# render-server
-Takes input user input and return autodesk server script for rendering
+# Maya Script Generator
+This program allows the user to select a .mb file and send a script to a render server to render out the file. The program takes the .mb file and generates a script that is put by the program into Mac Terminal that tells the render server to render the file to the local network server. The program will send the the new files to a folder called "images" or create the folder in the directory if it does not exist.
