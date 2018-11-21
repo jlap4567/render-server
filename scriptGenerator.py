@@ -39,8 +39,8 @@ def createOutputMaya():
 
     #Creates Script
     script = ("/opt/Autodesk/backburner/cmdjob -jobName render "
-        + "-manager renderserver.falabs.rutgers.edu -port 7347 " 
-        + "-group ProdLabSmall -priority 50 -taskList "
+        + "-manager (server name) -port (port number) " 
+        + "-group (name of server group) -priority 50 -taskList "
         + "/var/folders/zz/zyxvpxvq6csfxvn_n004xgm4017bx1/T/" + projName + ".txt "
         + "-taskName 1 /Applications/Autodesk/maya2017/Maya.app/Contents/bin/Render "
         + "-r file -s %tp2 -e %tp3 -proj " + file2 
